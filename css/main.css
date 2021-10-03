@@ -1,0 +1,122 @@
+/*  Put your CSS Here */
+:root {
+  box-sizing: border-box;
+}
+
+.flexboxContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  background-color: pink;
+  justify-content: space-evenly;
+  border-radius: 12px;
+}
+
+#towerOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: brown;
+  justify-content: flex-end;
+  height: 300px;
+  width: 25px;
+  margin-top: 40px;
+}
+
+#towerTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: brown;
+  justify-content: flex-end;
+  height: 300px;
+  width: 25px;
+  margin-top: 40px;
+}
+
+#towerThree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: brown;
+  justify-content: flex-end;
+  height: 300px;
+  width: 25px;
+  margin-top: 40px;
+}
+
+/* span {
+  margin: 0;
+} */
+
+#circle1 {
+  width: 80px;
+  height: 50px;
+  background-color: rgb(250, 19, 19);
+  border-radius: 15px;
+}
+
+#circle2 {
+  width: 120px;
+  height: 50px;
+  background-color: rgb(90, 231, 90);
+  border-radius: 15px;
+}
+
+#circle3 {
+  width: 160px;
+  height: 50px;
+  background-color: rgb(36, 16, 216);
+  border-radius: 15px;
+}
+
+#circle4 {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(190, 32, 151);
+  border-radius: 15px;
+}
+
+#hand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 80px;
+  border: 2px solid red;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+#msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 500px;
+  height: 80px;
+  border: 2px solid red;
+  border-radius: 15px;
+  color: red;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 500px;
+  height: 80px;
+  border: 2px solid red;
+  border-radius: 15px;
+  color: red;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
